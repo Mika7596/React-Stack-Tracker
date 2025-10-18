@@ -20,7 +20,7 @@ function App() {
           path="/company/:companySlug"
           element={<CompanyPage companiesList={companiesList} />}
         ></Route>
-        <Route path="/tech/:slug" element={<TechnologyPage />}></Route>
+        <Route path="/tech/:slug" element={<TechnologyPage techList={technologiesList}/>}></Route>
       </Routes>
     </div>
   );
